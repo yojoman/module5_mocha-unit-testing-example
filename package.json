@@ -15,6 +15,7 @@
   },
   "scripts": {
     "test": "mocha --config ./test/config/mocha.config.js",
+    "lint": "eslint ./",
     "coverage": "nyc npm run test"
   },
   "nyc": {
@@ -39,5 +40,11 @@
   "bugs": {
     "url": "https://github.com/stranger2626/mocha-unit-testing-example/issues"
   },
-  "homepage": "https://github.com/stranger2626/mocha-unit-testing-example#readme"
+  "homepage": "https://github.com/stranger2626/mocha-unit-testing-example#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.7.1"
+  }
 }
